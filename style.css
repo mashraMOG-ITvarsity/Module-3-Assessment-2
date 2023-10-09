@@ -1,0 +1,411 @@
+html{
+    height:100%;
+}
+
+body{
+    font-family:sans-serif;
+
+    margin:0;
+    padding:0;
+
+    height:100%;
+}
+
+.body-home{
+    background-image:url('images/background-home.jpg');
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.body-meals{
+    background-image:url('images/background-home-blur.jpg');
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+.body-menu{
+    background-image:url('images/background-home-blur.jpg');
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.body-message{
+    background-image:url('images/background-home-blur.jpg');
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*===============HEADER==============*/
+
+.header{
+    background-color:#0c0b0be4;
+
+    width:100%;
+    height:60px;
+    top:0;
+
+    position:fixed;
+    overflow:hidden;
+    text-align:center;
+}
+
+.header i{
+    text-decoration:none;
+    float:left;
+    padding:17px 0px 0px 17px;
+    color:white;
+}
+
+.header img{
+    margin-top:0px;
+    border-style: solid;
+    border-color:black;
+    background-color:white;
+    border-radius: 30px;
+}
+
+.header h2{
+   color:rgb(243, 130, 130);
+   text-align:center;
+   font-family:times;
+   font-style:italic;
+   font-size:40px;
+   display:inline-block;
+   margin-top:0px;
+}
+
+/*===============HOME==============*/
+
+/*=====HOME PAGE MENU=====*/
+#home-logo-img{
+    width:90px;
+    border:3px solid black;
+    border-radius:70px;
+    background-color: white;
+    display:block;
+    margin:auto;
+    margin-top:5px;
+    padding:10px 15px 10px 15px;
+}
+
+#home h1{
+    text-align:center;
+    margin:0px 200px 60px 200px;
+    font-size:40px;
+    font-family:times;
+    font-weight:900;
+    font-style:italic;
+    border-style:solid;
+    border-color:black;
+    background-color:white;
+    color:rgb(179, 5, 5);
+}
+
+.home-menu-item{
+    text-decoration:none;
+    text-transform: uppercase;
+
+    color:white;
+    background-color:rgba(2, 44, 42, 0.818);
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    border:5px solid white;
+
+    display:block;
+    margin:auto;
+    margin-bottom:10px;
+    width:80%;
+}
+
+/*===============MEALS PAGE==============*/
+
+#meals {
+    padding-top:70px;
+}
+
+/*=====MEALS PAGE MENU=====*/
+
+.meals-list a{
+    text-decoration:none;
+}
+
+.meals-list-item{
+    border:3px solid rgba(255, 255, 255, 0.744);
+    background-color:rgba(255, 255, 255, 0.657) ;
+    margin:20px;
+}
+
+.meals-list-item h1{
+    font-weight:799;
+    font-size:20px;
+    font-style:italic;
+    font-family:cursive;
+    color:black;
+    padding-left:10px;
+}
+
+.meals-list-item i{
+    float:right;
+    color:#1a1a1a;
+    padding-right:10px;
+}
+
+
+.meals-list-item p{
+    font-size:15px;
+    font-family:Helvetica;
+    font-style:italic;
+    font-weight:560;
+    color:#171616;
+    margin-top:-7px;
+    padding-left:10px;
+}
+
+/*===============MENU PAGE==============*/
+
+#menu{
+    padding-top:70px;
+    font-family:cursive;
+    font-style:italic;
+}
+
+/*========MENU DETAILS=========*/
+
+.menu-details img{
+    margin-left:300px;
+    border:4px solid black;
+    border-radius:30px;
+}
+
+.menu-details h1{
+    text-align:center;
+    margin-left:350px;
+    margin-right:400px;
+    text-transform:uppercase;
+    font-family:cursive;
+    font-style:italic;
+    border:5px solid black;
+    background-color:rgba(255, 255, 255, 0.936);
+    color:black;
+}
+
+.menu-info p{
+    display:inline-block;
+    margin-left:240px;
+    margin-right:250px;
+    font-weight:500px;
+    border:3px solid black;
+    background-color:white;
+    padding:7px;
+}
+
+.menu-info p b{
+    font-weight:600px;
+    text-transform: uppercase;
+    color: rgb(163, 29, 29);
+}
+
+.menu-details-info h2{
+    margin:30px 1000px 10px 30px;
+    padding:1px;
+    text-align:center;
+    text-transform: uppercase;
+    border:2px solid white;
+    background-color:rgba(0, 0, 0, 0.754);
+    color:white;
+
+}
+
+.menu-details-info p{
+    margin-left:30px;
+    margin-right:90px;
+    border:2px solid black;
+    background-color:rgba(255, 255, 255, 0.794);
+    font-size:18px;
+    padding:5px;
+}
+
+.menu-extra-ingredients h2{
+    margin:50px 980px 10px 30px;
+    padding:1px;
+    text-align:center;
+    text-transform: uppercase;
+    border:2px solid white;
+    background-color:rgba(0, 0, 0, 0.754);
+    color:white;
+}
+
+.menu-extra-ingredients p{
+    margin:10px 1000px 10px 50px;
+    text-align:center;
+    text-transform: uppercase;
+    border:3px solid black;
+    background-color:rgba(246, 237, 237, 0.748);
+    color:black;
+}
+
+.menu-extra-ingredients input{
+    margin-left:30px;
+    margin-top:3px;
+}
+
+.menu-extra-ingredients label{
+    padding:2px;
+    border:2px solid black;
+    background-color:rgba(95, 194, 255, 0.708);
+}
+
+.button{
+    text-decoration:none;
+    margin:10px 300px 20px 550px;
+    font-weight:700;
+    font-size:25px;
+    font-family:Helvetica;
+    font-style: normal;
+    background-color:red;
+    border:2px solid black;
+    color:white;
+    padding:5px;
+}
+
+.order a:hover{
+    background-color:rgb(3, 228, 3);
+    color:white;
+}
+
+/*===============MESSAGE PAGE==============*/
+
+#message{
+    padding-top:70px;
+}
+
+/*========MESSAGE DETAILS=========*/
+
+.message-details img{
+    margin:20px 50px 20px 300px;
+    border:2px solid black;
+}
+
+.message-details h1{
+    text-align:center;
+    margin:10px 350px 10px 300px;
+    border:2px solid black;
+    background-color:rgba(227, 183, 183, 0.866);
+    color:#171616;
+    padding:2px;
+}
+
+.message-details-info p{
+    margin:20px 100px 20px 100px;
+    background-color:rgba(255, 255, 255, 0.784);
+    border:2px solid black;
+    font-family:cursive;
+    font-weight:600px;
+    font-size:18px;
+    padding:10px;
+}
+
+#notes h2{
+    margin:50px 980px 10px 30px;
+    padding:1px;
+    text-align:center;
+    text-transform: uppercase;
+    border:2px solid white;
+    background-color:rgba(0, 0, 0, 0.754);
+    color:white;
+}
+
+#notes textarea{
+    margin:10px 80px 20px 30px;
+    display:block;
+    width:50%;
+    height:90px;
+    border:3px solid black;
+    background-color:rgba(255, 255, 255, 0.849);
+    font-family:cursive;
+}
+
+/*===============RESPONSIVE LAYOUT==============*/
+
+@media only screen and(min-width:600px) {
+    #meals{
+        width:80%;
+        margin:auto;
+    }
+
+    #menu{
+        width:80%;
+        margin:auto;
+    }
+
+    #message{
+        width:80%;
+        margin:auto;
+    }
+
+}
+
+@media only screen and(min-width:1000px) {
+    #meals{
+        width:60%;
+        margin:auto;
+    }
+
+    #menu{
+        width:60%;
+        margin:auto;
+    }
+
+    #message{
+        width:80%;
+        margin:auto;
+    }
+}
+
+@media only screen and(min-width:1500px) {
+    #meals{
+        width:40%;
+        margin:auto;
+    }
+
+    #menu{
+        width:40%;
+        margin:auto;
+    }
+
+    #message{
+        width:80%;
+        margin:auto;
+    }
+}
+
+@media only screen and(min-width:720px) {
+    .body-home{
+        background-image:url('images/background-00.jpg');
+    }
+
+    .body-meals{
+        background-image:url('images/background-00-blur.jpg');
+    }
+
+    .body-menu{
+        background-image:url('images/background-00-blur.jpg')
+    }
+
+    .body-message{
+        background-image:url('image/background-00-blur')
+    }
+}
+
+
+
